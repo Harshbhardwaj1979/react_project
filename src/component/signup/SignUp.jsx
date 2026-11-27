@@ -38,7 +38,7 @@ const SignUp = () => {
     }
     
     return(
-        <div id={Styles.Login}>
+        <div id={styles.Login}>
 
         <div>
             <h2>Create New Account</h2>
@@ -50,7 +50,7 @@ const SignUp = () => {
 
                 <input type="password" placeholder="Password" value={formData.password} onChange={handleChange} name="password"></input>
                 <br/>
-                <input id={Styles.btn} type="submit"></input>
+                <input id={styles.btn} type="submit"></input>
             </form>
         </div>
         </div>

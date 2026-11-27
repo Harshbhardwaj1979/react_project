@@ -11,7 +11,6 @@ const Home = () => {
         <p className={styles.subtitle}>
           A premium shopping experience powered by modern APIs and seamless user design.
         </p>
-        <button className={styles.btn}onClick={() => navigate("/allProducts") }>Explore Products</button>
       </div>
       <div className={styles.bgGlow}></div>
     </div>

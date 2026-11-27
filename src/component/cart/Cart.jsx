@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Styles from "./Cart.module.css";
+import styles from "./Cart.module.css";
 import axios from "axios";
 
 const Cart = () => {

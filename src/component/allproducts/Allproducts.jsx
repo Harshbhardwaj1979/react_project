@@ -50,6 +50,8 @@ const Allproducts = () => {
               >
                 Add To Cart
               </button>
+              <button className={styles.btn}onClick={() => navigate("/Allproducts") }>Explore Products</button>
+              
             </div>
           </section>
         );

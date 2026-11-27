@@ -20,8 +20,8 @@ const Routing = createBrowserRouter([
                 element : <Home/>
             },
             {
-                path: "/allProducts",
-                element : <AllProducts/>
+                path: "/allproducts",
+                element : <Allproducts/>
             },
             {
                 path: "/cart",

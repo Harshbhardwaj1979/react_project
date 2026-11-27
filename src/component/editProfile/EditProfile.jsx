@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Styles from "./EditProfile.module.css";
+import styles from "./EditProfile.module.css";
 import {Navigate, useNavigate, useParams} from "react-router-dom"
 import axios from "axios";
 
@@ -45,7 +45,7 @@ const EditProfile = () => {
   }
 
   return (
-    <div id={Styles.editProfile}>
+    <div id={styles.editProfile}>
       <div>
         <h2>Edit Profile</h2>
         <br/>
@@ -54,7 +54,7 @@ const EditProfile = () => {
           <input type="text" placeholder="Email" name="email" value={editUser.email} onChange={handleEditUser}></input>
           <input type="password" placeholder="Password" name="password" value={editUser.password} onChange={handleEditUser}></input>
           <br />
-          <input id={Styles.btn} type="submit"></input>
+          <input id={styles.btn} type="submit"></input>
         </form>
       </div>
     </div>
