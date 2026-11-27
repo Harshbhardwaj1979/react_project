@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const Signup = () => {
+const SignUp = () => {
 
     let [formData , setFormData] = useState({
         userName:"",
@@ -56,4 +56,4 @@ const Signup = () => {
         </div>
     )
 }
-export default Signup;
+export default SignUp;

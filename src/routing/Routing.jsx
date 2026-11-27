@@ -6,7 +6,7 @@ import AllProducts from "../component/allproducts/Allproducts";
 import Cart from '../component/cart/Cart'
 import EditProfile from './../component/editProfile/EditProfile';
 import Login from '../component/login/Login';
-import Signup from "../component/signup/Signup";
+import Signup from "../component/signup/SignUp";
 
 
 const Routing = createBrowserRouter([
