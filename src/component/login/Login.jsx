@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Styles from "./Login.module.css"
+import styles from "./Login.module.css"
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
 
@@ -51,7 +51,7 @@ const Login = () => {
     }, [])
 
     return (
-        <div id={Styles.Login}>
+        <div id={styles.Login}>
 
             <div>
                 <h2>Login</h2>
@@ -62,7 +62,7 @@ const Login = () => {
 
                     <input type="password" placeholder="Password" value={formData.password} onChange={handleChange} name="password"></input>
                     <br />
-                    <input id={Styles.btn} type="submit"></input>
+                    <input id={styles.btn} type="submit"></input>
                 </form>
             </div>
         </div>
