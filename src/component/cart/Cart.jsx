@@ -56,7 +56,7 @@ const Cart = () => {
   }
 
   return (
-    <div id={Styles.cart}>
+    <div id={styles.cart}>
       {userDetails?.cart?.length > 0 ? (
         userDetails.cart.map((item) => (
           <section key={item.id}>
