@@ -43,7 +43,7 @@ const Login = () => {
 
     useEffect(() => {
         async function userData() {
-            let { data } = await axios.get("http://localhost:3030/users");
+            let { data } = await axios.get("https://react-project-iota-orcin-93.vercel.app/");
             // console.log(data)
             setAllusers(data)
         }
