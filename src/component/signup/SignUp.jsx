@@ -21,7 +21,7 @@ const SignUp = () => {
         e.preventDefault();
         console.log(formData);
         try{
-            let resp = await axios.post("http://localhost:3030/users" , formData)
+            let resp = await axios.post("https://react-project-iota-orcin-93.vercel.app/" , formData)
             // console.log(resp);
             alert("SignUP successfully");
             navigate("/login")
